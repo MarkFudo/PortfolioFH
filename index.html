@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Portfolio</title>
+    <title>Portafolio FH</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
@@ -13,16 +13,15 @@
     <div class="contenedor-header">
         <header>
             <div class="logo">
-                <a href="#">Nick</a>
+                <a href="#">Portafolio FH</a>
             </div>
             <nav id="nav">
                 <ul>
                     <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
                     <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
-                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
                     <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
-                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PROYECTOS</a></li>
                 </ul>
             </nav>
             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
@@ -35,16 +34,20 @@
     <section id="inicio" class="inicio">
         <div class="contenido-banner">
             <div class="contenedor-img">
-                <img src="img/hero.png" alt="">
+                <img src="https://i.imgur.com/aFXLKXe.png" alt="">
             </div>
-            <h1>NICK PEREZ</h1>
-            <h2>Ingeniero de Software - Experto UI/UX</h2>
+            <h1>FREIVEL HIRUJO</h1>
+            <h2>Ingeniero de Software</h2>
             <div class="redes">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-skype"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="#"><i class="fa-solid fa-rss"></i></a>
+                <a href="https://www.linkedin.com/in/freivelhirujo/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:Freivelhv@hotmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://wa.me/18492102279" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
             </div>
         </div>
     </section>
@@ -53,7 +56,12 @@
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion">
             <h2>Sobre Mí</h2>
-            <p><span>Hola, soy Nick Perez.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam unde soluta minima necessitatibus, voluptas consectetur vero officiis quas, explicabo deleniti repellendus aliquid debitis maiores numquam voluptate reprehenderit in delectus dolores.</p>
+            <p>
+                <span>¡Saludos! Freivel Hirujo al habla.</span> 
+                Soy una persona puntual y comprometida con la calidad en mi trabajo, capaz de gestionar mi tiempo de forma efectiva mediante la toma de notas, 
+                la aclaración de dudas y la organización de mi agenda para mantener una alta productividad. Cuento con habilidades en desarrollo y gestión de 
+                proyectos de software, auditoría de TI, control de versiones con Git, y experiencia trabajando tanto con tecnologías propietarias como de código abierto.
+            </p>
 
             <div class="fila">
                 <!-- datos personales -->
@@ -61,27 +69,27 @@
                     <h3>Datos Personales</h3>
                     <ul>
                         <li>
-                            <strong>Cumpleaños</strong>
-                            15-01-1980
+                            <strong>Nombre</strong>
+                            <a>Freivel Alberto Hirujo Valdez</a>
                         </li>
                         <li>
-                            <strong>Teléfono</strong>
-                            2555 5454545
+                            <strong>Edad</strong>
+                            24
                         </li>
                         <li>
                             <strong>Email</strong>
-                            cw@example.com
+                            Freivelhv@hotmail.com
                         </li>
                         <li>
-                            <strong>Website</strong>
-                            www.example.com
+                            <strong>Teléfono</strong>
+                            +1-849-210-2279
                         </li>
                         <li>
                             <strong>Dirección</strong>
-                            123 San Luis, Argentina
+                            Km.18 de la Autopista Duarte
                         </li>
                         <li>
-                            <strong>Cargo</strong>
+                            <strong>Cargo Actual</strong>
                             <span>FREELANCE</span>
                         </li>
                     </ul>
@@ -92,102 +100,52 @@
                     <h3>Intereses</h3>
                     <div class="contenedor-intereses">
                         <div class="interes">
+                            <i class="fa-solid fa-palette"></i>
+                            <span>ARTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-microchip"></i>
+                            <span>TECNOLOGÍA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LECTURA</span>
+                        </div>
+                        <div class="interes">
                             <i class="fa-solid fa-gamepad"></i>
                             <span>JUEGOS</span>
                         </div>
                         <div class="interes">
-                            <i class="fa-solid fa-headphones"></i>
-                            <span>MUSICA</span>
+                            <i class="fa-solid fa-landmark"></i>
+                            <span>POLÍTICA</span>
                         </div>
                         <div class="interes">
-                            <i class="fa-solid fa-plane"></i>
-                            <span>VIAJAR</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-brands fa-apple"></i>
-                            <span>MAC OS</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-person-hiking"></i>
-                            <span>DEPORTE</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-book"></i>
-                            <span>LIBROS</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-car"></i>
-                            <span>AUTOS</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-camera"></i>
-                            <span>FOTOS</span>
+                            <i class="fa-solid fa-coins"></i>
+                            <span>FINANZAS</span>
                         </div>
                         
                     </div>
                 </div>
             </div>
-            <button>
-                Descargar CV <i class="fa-solid fa-download"></i>
+            <button 
+                onclick="window.open('https://www.canva.com/design/DAFyMzWkiBs/UGPLhUIxaHVujoDw8W8ZMg/edit?utm_content=DAFyMzWkiBs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton', '_blank', 'noopener,noreferrer')"
+            >
+                Visualizar CV <i class="fa-solid fa-download"></i>
                 <span class="overlay"></span>
-            </button>
+            </button>           
         </div>
     </section>
 
     <!-- SECCION SKILLS -->
     <section class="skills" id="skills">
         <div class="contenido-seccion">
-            <h2>Skills</h2>
+            <h2>Habilidades</h2>
             <div class="fila">
                 <!-- Technical Skill -->
                 <div class="col">
-                    <h3>Technical Skills</h3>
+                    <h3>Habilidades Técnicas</h3>
                     <div class="skill">
                         <span>Javascript</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>75%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>HTML & CSS</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>89%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Photoshop</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>95%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Wordpress</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>81%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Drupa</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>55%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Professional Skills -->
-                <div class="col">
-                    <h3>Professional Skills</h3>
-                    <div class="skill">
-                        <span>Comunicación</span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>80%</span>
@@ -195,7 +153,15 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Trabajo en Equipo</span>
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C#</span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>70%</span>
@@ -203,26 +169,62 @@
                         </div>
                     </div>
                     <div class="skill">
+                        <span>SQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Figma</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
                         <span>Creatividad</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>99%</span>
+                                <span>85%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Dedicación</span>
+                        <span>Liderazgo</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>65%</span>
+                                <span>80%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Proyect Management</span>
+                        <span>Manejo de Proyectos</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>94%</span>
+                                <span>75%</span>
                             </div>
                         </div>
                     </div>
@@ -239,28 +241,15 @@
                 <div class="col izquierda">
                     <h3>Educación</h3>
                     <div class="item izq">
-                        <h4>Arte y Multimedia</h4>
-                        <span class="casa">Universidad de Oxford</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                    <div class="item izq">
-                        <h4>Arte y Multimedia</h4>
-                        <span class="casa">Universidad de Oxford</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                    <div class="item izq">
-                        <h4>Arte y Multimedia</h4>
-                        <span class="casa">Universidad de Oxford</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <h4>Ingeniería de Software</h4>
+                        <span class="casa">Universidad APEC</span>
+                        <span class="fecha">MAY 2018 ~ DIC 2023</span>
+                        <p>
+                            Durante mi formación como Ingeniero de Software en la Universidad APEC, desarrollé habilidades sólidas en desarrollo web y de videojuegos, 
+                            programación orientada a objetos, bases de datos, ciberseguridad y gestión de proyectos. Adquirí experiencia en tecnologías propietarias y 
+                            open source, ingeniería de requisitos, usabilidad y calidad de software, además de conocimientos en auditoría informática, comercio electrónico 
+                            y computación ubicua.
+                        </p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -270,28 +259,25 @@
                 <div class="col derecha">
                     <h3>Experiencia de trabajo</h3>
                     <div class="item der">
-                        <h4>Front Developer</h4>
-                        <span class="casa">Nombre de Compañía</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <h4>Analista de Desarrollo de Aplicaciones</h4>
+                        <span class="casa">Dirección General de Aduanas (DGA)</span>
+                        <span class="fecha">DIC 2024 ~ FEB 2025</span>
+                        <p>
+                            Como pasante desarrollador, usé metodologías de desarrollo ágiles (SCRUM) con Azure DevOps para progresar en mis proyectos asignados, 
+                            reuniéndome con los stakeholders tras cada Sprint para evaluar el avance.    
+                        </p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
                     </div>
                     <div class="item der">
-                        <h4>Front Developer</h4>
-                        <span class="casa">Nombre de Compañía</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                    <div class="item der">
-                        <h4>Front Developer</h4>
-                        <span class="casa">Nombre de Compañía</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <h4>Analista de Soporte para TI</h4>
+                        <span class="casa">Dirección General de Aduanas (DGA)</span>
+                        <span class="fecha">NOV~DIC 2024</span>
+                        <p>
+                            Como pasante analista de soporte, asistí presencial y remoto a los usuarios con sus problemas de software y hardware que les impedían ejercer 
+                            sus funciones, además de gestionar los equipos para su uso futuro. 
+                        </p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
@@ -304,22 +290,26 @@
     <!-- SECCION PORTFOLIO -->
     <section id="portfolio" class="portfolio">
         <div class="contenido-seccion">
-            <h2>PORTFOLIO</h2>
+            <h2>PROYECTOS</h2>
             <div class="galeria">
-                <div class="proyecto">
-                    <img src="img/p1.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                <a href="https://markfudo.github.io/Budget-Tracker/" target="_blank">
+                    <div class="proyecto">
+                        <img src="https://i.imgur.com/PDlzPoS.png" alt="">
+                        <div class="overlay">
+                            <h3>Budget Tracker</h3>
+                            <p>React</p>
+                        </div>
                     </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img/p2.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                </a>                
+                <a href="https://markfudo.github.io/TodoApp-React/" target="_blank">
+                    <div class="proyecto">
+                        <img src="https://i.imgur.com/ffoan2p.png" alt="">
+                        <div class="overlay">
+                            <h3>To-Do App</h3>
+                            <p>React</p>
+                        </div>
                     </div>
-                </div>
+                </a>
                 <div class="proyecto">
                     <img src="img/p3.jpg" alt="">
                     <div class="overlay">
@@ -327,18 +317,20 @@
                         <p>Fotografía</p>
                     </div>
                 </div>
+                <a href="https://www.figma.com/design/zKCLof7tOHwKK5fYWIDy2c/G-SMDE-(Freivel-Hirujo)?node-id=0-1" target="_blank">
+                    <div class="proyecto">
+                        <img src="https://i.imgur.com/ExOxbMB.png" alt="">
+                        <div class="overlay">
+                            <h3>Prototipo Móvil</h3>
+                            <p>Figma</p>
+                        </div>
+                    </div>
+                </a>
                 <div class="proyecto">
                     <img src="img/p4.jpg" alt="">
                     <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img/p5.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                        <h3>Prototipo Móvil</h3>
+                        <p>Figma</p>
                     </div>
                 </div>
                 <div class="proyecto">
@@ -352,58 +344,14 @@
         </div>
     </section>
 
-    <!-- SECCION CONTACTO -->
-    <section id="contacto" class="contacto">
-        <div class="contenido-seccion">
-            <h2>CONTACTO</h2>
-            <div class="fila">
-                <!-- Formulario -->
-                <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
-                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                    </button>
-                </div>
-                <!-- Mapa -->
-                <div class="col">
-                    <img src="img/ubicacion.png" alt="">
-                    <div class="info">
-                        <ul>
-                            <li>
-                                <i class="fa-solid fa-location-dot"></i>
-                                Nicaragua 159, San Rafael Mza
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-mobile-screen"></i>
-                                Llamanos: 2384 - 4343443 
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-envelope"></i>
-                                Email: cw@example.com
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- footer -->
     <footer>
         <a href="#inicio" class="arriba">
             <i class="fa-solid fa-angles-up"></i>
         </a>
         <div class="redes">
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-skype"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="#"><i class="fa-solid fa-rss"></i></a>
+            <a href="https://www.linkedin.com/in/freivelhirujo/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:Freivelhv@hotmail.com"><i class="fa-solid fa-rss"></i></a>
         </div>
     </footer>
 
