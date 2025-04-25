@@ -268,14 +268,14 @@ html{
     right: -15px;
     font-size: 14px;
 }
-/* Estas clases se agregaran dinamicamente mediante javascript */
-.skills .skill .javascript{
+/* Estas clases se agregaran dinamicamente mediante barra1 */
+.skills .skill .barra1{
     width: 0%;
-    animation: 2s javascript forwards;
+    animation: 2s barra1 forwards;
 }
-@keyframes javascript {
+@keyframes barra1 {
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 90%;}
 }
 
 .skills .skill .htmlcss{
@@ -287,13 +287,13 @@ html{
     100%{width: 85%;}
 }
 
-.skills .skill .photoshop{
+.skills .skill .barra3{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s barra3 forwards;
 }
-@keyframes photoshop {
+@keyframes barra3 {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 85%;}
 }
 
 .skills .skill .wordpress{
@@ -302,7 +302,7 @@ html{
 }
 @keyframes wordpress {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .drupal{
@@ -311,7 +311,7 @@ html{
 }
 @keyframes drupal {
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 75%;}
 }
 
 .skills .skill .comunicacion{
@@ -347,7 +347,7 @@ html{
 }
 @keyframes dedicacion {
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 85%;}
 }
 
 .skills .skill .proyect{
@@ -356,7 +356,7 @@ html{
 }
 @keyframes proyect {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 80%;}
 }
 /* SECCION CURRICULUM */
 .curriculum{
