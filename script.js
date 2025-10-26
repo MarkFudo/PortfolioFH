@@ -34,6 +34,23 @@ function efectoHabilidades(){
     }
 }
 
+// Fecha de nacimiento (año, mes - 1, día)
+const birthDate = new Date(2000, 9, 28); // octubre = 9 porque los meses empiezan en 0
+const today = new Date();
+
+let age = today.getFullYear() - birthDate.getFullYear();
+
+// Si aún no ha llegado el cumpleaños este año, resta uno
+const hasBirthdayPassed =
+    today.getMonth() > birthDate.getMonth() ||
+    (today.getMonth() === birthDate.getMonth() && today.getDate() >= birthDate.getDate());
+
+if (!hasBirthdayPassed) {
+    age--;
+}
+
+// Muestra la edad en el elemento <span id="age">
+document.getElementById("age").textContent = age;
 
 //detecto el scrolling para aplicar la animacion de la barra de habilidades
 window.onscroll = function(){
